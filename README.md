@@ -1,7 +1,7 @@
 # 🚀 Mac-Project
 
 팀 프로젝트로 진행 중인 React 기반 웹 애플리케이션입니다.  
-프론트엔드 아키텍처 설계 및 협업 Git workflow를 기반으로 개발하고 있습니다.
+프론트엔드 아키텍처 설계 및 GitHub 협업 workflow를 기반으로 개발하고 있습니다.
 
 ---
 
@@ -67,4 +67,4 @@ UI/UX 개선
 
 API 연동
 
-Vercel 배포
+Vercel 배포 예정
