@@ -1,16 +1,70 @@
-# React + Vite
+# 🚀 Mac-Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+팀 프로젝트로 진행 중인 React 기반 웹 애플리케이션입니다.  
+프론트엔드 아키텍처 설계 및 협업 Git workflow를 기반으로 개발하고 있습니다.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👨‍💻 Team Members
 
-## React Compiler
+- 송형우
+- 김태완
+- 김용준
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+- ESLint
+- Git / GitHub (협업)
+
+---
+
+## 📂 Project Structure
+
+
+Mac-Project/
+├─ public/
+├─ src/
+│ ├─ components/
+│ ├─ pages/
+│ ├─ App.jsx
+│ └─ main.jsx
+├─ index.html
+├─ package.json
+└─ vite.config.js
+
+
+---
+
+## ⚙️ Installation
+
+```bash
+npm install
+▶️ Run (Development)
+npm run dev
+📦 Build
+npm run build
+🎯 Project Goals
+
+React 기반 SPA 구조 설계
+
+컴포넌트 단위 개발
+
+GitHub 협업 workflow 경험
+
+배포 자동화 (예정)
+
+📌 Future Plans
+
+UI/UX 개선
+
+반응형 디자인 적용
+
+API 연동
+
+Vercel 배포
