@@ -11,7 +11,8 @@ Flourish와 유사한 No-Code 데이터 시각화 환경을 목표로 개발 중
 ---
 
 ## 🌐 Live Demo
-> (추후 배포 후 링크 추가 예정)
+> <img width="1920" height="941" alt="image" src="https://github.com/user-attachments/assets/04d1eba3-ce55-4252-a0d5-5a3d5bd5722b" />
+
 
 ---
 
