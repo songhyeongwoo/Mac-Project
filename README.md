@@ -26,18 +26,17 @@
 
 ## 📂 Project Structure
 
-
+```bash
 Mac-Project/
 ├─ public/
 ├─ src/
-│ ├─ components/
-│ ├─ pages/
-│ ├─ App.jsx
-│ └─ main.jsx
+│  ├─ components/
+│  ├─ pages/
+│  ├─ App.jsx
+│  └─ main.jsx
 ├─ index.html
 ├─ package.json
 └─ vite.config.js
-
 
 ---
 
