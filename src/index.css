@@ -1,0 +1,74 @@
+/* =========================
+   index.css (Full replacement)
+   - Vite 기본 "가운데 정렬(flex)" 제거
+   - #root/max-width/padding 제한 제거
+   - App.css 테마 변수를 그대로 쓰도록 바탕 스타일 정리
+========================= */
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* ✅ App.css에서 테마(배경/글자색)를 관리하므로 여기선 강제하지 않음 */
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ✅ 앱이 화면 전체를 쓰도록 */
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+/* ✅ 핵심: Vite 기본 중앙정렬(flex + place-items) 제거 */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+  display: block;        /* flex 제거 */
+  place-items: initial;  /* 중앙정렬 제거 */
+
+  /* App.css 변수 기반으로 자연스럽게 따라가도록 */
+  background: transparent;
+  color: inherit;
+}
+
+/* ✅ Vite 템플릿에서 종종 생기는 #root 제한 제거 */
+#root {
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/* ✅ 기본 버튼 스타일은 App.css에서 커스텀하니까 과한 기본 스타일만 최소화 */
+button {
+  font-family: inherit;
+}
+
+/* (선택) 시스템이 라이트 모드면 링크 hover만 약간 보정 */
+@media (prefers-color-scheme: light) {
+  a:hover {
+    color: #747bff;
+  }
+}
