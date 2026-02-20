@@ -3,6 +3,7 @@
 팀 프로젝트로 진행 중인 React 기반 웹 애플리케이션입니다.  
 프론트엔드 아키텍처 설계 및 GitHub 협업 workflow를 기반으로 개발하고 있습니다.
 
+---
 
 ## 👨‍💻 Team Members
 
@@ -10,6 +11,7 @@
 - 김태완
 - 김용준
 
+---
 
 ## 🛠 Tech Stack
 
@@ -20,17 +22,18 @@
 - ESLint
 - Git / GitHub (협업)
 
+---
 
 ## 📂 Project Structure
 
-
+```bash
 Mac-Project/
 ├─ public/
 ├─ src/
-│ ├─ components/
-│ ├─ pages/
-│ ├─ App.jsx
-│ └─ main.jsx
+│  ├─ components/
+│  ├─ pages/
+│  ├─ App.jsx
+│  └─ main.jsx
 ├─ index.html
 ├─ package.json
 └─ vite.config.js
