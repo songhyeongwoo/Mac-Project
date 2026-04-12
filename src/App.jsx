@@ -1433,7 +1433,7 @@ export default function App() {
                 </label>
 
                 <div className="emptyHint">
-                  ※ Madeby. 송형우
+                  ※ 최종수정 (26.04.12)
                 </div>
               </div>
             </div>
