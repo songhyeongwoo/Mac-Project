@@ -107,18 +107,6 @@ npm run dev
 npm run build
 ```
 
----
-
-## 🚀 Roadmap
-
-- [ ] Line Chart / Pie Chart / Area Chart 추가
-- [ ] 템플릿 시스템 도입
-- [ ] Drag & Drop 데이터 업로드
-- [ ] 고해상도 Export 최적화
-- [ ] 렌더링 성능 개선
-- [ ] 서버 연동 및 사용자 저장 기능
-
----
 
 ## 🌟 Long-Term Vision
 
