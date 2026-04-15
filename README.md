@@ -16,38 +16,6 @@ Flourish와 유사한 No-Code 데이터 시각화 환경을 목표로 개발 중
 
 ---
 
-## 👨‍💻 Team
-
-| Name | Role | Focus Area |
-|------|------|------------|
-| 송형우 | Data Strategy & Project Lead | Data Analysis, Visualization Design, Product Planning |
-| 김태완 | Frontend Engineer | UI/UX Implementation, Component Architecture |
-| 김용준 | Backend Engineer | Data Processing, API Design, Export Pipeline |
-
----
-
-### 🔎 Role Breakdown
-
-#### 📊 송형우 — Data Strategy & Visualization Lead
-- 데이터 구조 설계 및 분석 방향 기획
-- 시각화 로직 및 지표 설계
-- 사용자 관점의 데이터 스토리텔링 구조 설계
-- 프로젝트 매니지먼트 및 기능 로드맵 기획
-
-#### 🎨 김태완 — Frontend Architecture
-- React 기반 컴포넌트 구조 설계
-- 인터랙티브 UI 구현
-- 애니메이션 렌더링 최적화
-- 사용자 경험(UX) 개선
-
-#### ⚙ 김용준 — Backend & Data Engine
-- 데이터 처리 로직 설계
-- API 구조 설계 및 확장 고려
-- Export 처리 파이프라인 구성
-- 향후 서버 연동 구조 설계
-
----
-
 ## 🧠 Problem Statement
 
 기존 데이터 시각화 툴은:
