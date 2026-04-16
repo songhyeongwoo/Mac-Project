@@ -708,7 +708,7 @@ body{
 
 /* 테이블 셀 패딩 조정 (인풋이 꽉 차게) */
 .dataTable td {
-  padding: 0 !important; /* 기존 패딩 제거 */
+  padding: 0 !important; 
   height: 32px;
 }
 
