@@ -1308,7 +1308,7 @@ export default function App() {
 
     try { // ★ try 시작
       // UI 반영 대기
-      await new Promise((r) => setTimeout(r, 500)); // 시간을 0.2초 -> 0.5초로 늘려서 안정성 확보
+      await new Promise((r) => setTimeout(r, 500)); 
 
       // exportVideo 실행
       await exportVideo({
