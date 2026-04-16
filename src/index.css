@@ -10,7 +10,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-  /* ✅ App.css에서 테마(배경/글자색)를 관리하므로 여기선 강제하지 않음 */
   color-scheme: light;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
