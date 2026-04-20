@@ -1433,7 +1433,7 @@ export default function App() {
                 </label>
 
                 <div className="emptyHint">
-                  ※ 최종수정 (26.04.12)
+                  ※ 최종수정 (26.04.21)
                 </div>
               </div>
             </div>
@@ -1496,7 +1496,7 @@ export default function App() {
                     onScrub={scrubTo}
                     t={t}
                     maxT={maxT}
-                    showTimeline={!isExporting} // ★ 중요: 녹화 중일 땐 타임라인 숨기기!
+                    showTimeline={!isExporting}
                     valueCols={valueCols}
                     title={chartTitle}
                     titleSize={titleSize}
@@ -1546,9 +1546,9 @@ export default function App() {
                   value={theme}
                   onChange={setTheme}
                   options={[
-                    { value: "apex", label: "Flourish: 기본(Apex)" },
-                    { value: "blue", label: "Flourish: 블루(7번 느낌)" },
-                    { value: "midnight", label: "Flourish: 미드나잇(다크)" },
+                    { value: "apex", label: "기본(Apex)" },
+                    { value: "blue", label: "블루" },
+                    { value: "midnight", label: "미드나잇(다크)" },
                   ]}
                 />
                 <button className="miniBtn" type="button" onClick={() => {}} title="초기화">
