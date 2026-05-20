@@ -1,4 +1,4 @@
-# 🚀 Mac-Project  
+# 🚀 Mac-Project
 ### Interactive Data Visualization Platform
 
 Mac-Project는 사용자가 직접 데이터를 입력하면  
